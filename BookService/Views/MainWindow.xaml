@@ -1,0 +1,94 @@
+﻿<Window x:Class="BookService.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Converters="clr-namespace:BookService.Converters"
+        xmlns:Views="clr-namespace:BookService.Views"
+        mc:Ignorable="d"
+        Title="{Binding Title}" Height="500" Width="1000" FontSize="16">
+    <DockPanel LastChildFill="True">
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Margin="5" >
+            <Button Command="{Binding OpenCommand}" Margin="5" Padding="10">Open</Button>
+            <Button Command="{Binding ClearCommand}" Margin="5" Padding="10">Remove Books</Button>
+        </StackPanel>
+        <DataGrid x:Name="gridBooks" AutoGenerateColumns="False" CanUserAddRows="False" ItemsSource="{Binding Books}" >
+            <DataGrid.CellStyle>
+                <Style TargetType="DataGridCell">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Path=InStock}" Value="False">
+                            <Setter Property="Background" Value="LightGray"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.CellStyle>
+            <DataGrid.Resources>
+                <Style x:Key="BindingComboBoxStyle" TargetType="ComboBox">
+                    <Setter Property="ItemsSource" Value="{Binding DataContext.Bindings, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                </Style>
+                <Style x:Key="NumberCell">
+                    <Setter Property="TextBlock.TextAlignment" Value="Right"/>
+                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Stretch"/>
+                </Style>
+                <Converters:CellColorConverter x:Key="CellColorConverter"/>
+            </DataGrid.Resources>
+            <DataGrid.Columns>
+                <DataGridTextColumn IsReadOnly="True" Binding="{Binding Path=Title}" >
+                    <DataGridTextColumn.Header>
+                        <TextBlock Text="{Binding DataContext.TitleColumnHeader, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"/>
+                    </DataGridTextColumn.Header>
+                </DataGridTextColumn>
+                <DataGridTextColumn IsReadOnly="True" Binding="{Binding Path=Author}" >
+                    <DataGridTextColumn.Header>
+                        <TextBlock Text="{Binding DataContext.AuthorColumnHeader, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"/>
+                    </DataGridTextColumn.Header>
+                </DataGridTextColumn>
+                <DataGridTextColumn IsReadOnly="True" Binding="{Binding Path=Year}">
+                    <DataGridTextColumn.Header>
+                        <TextBlock Text="{Binding DataContext.YearColumnHeader, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"/>
+                    </DataGridTextColumn.Header>
+                </DataGridTextColumn>
+                <DataGridTextColumn IsReadOnly="True" Binding="{Binding Path=Price}" CellStyle="{StaticResource NumberCell}" >
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="{x:Type TextBlock}">
+                            <Setter Property="Background">
+                                <Setter.Value>
+                                    <MultiBinding Converter="{StaticResource CellColorConverter}">
+                                        <Binding Path="Price" />
+                                        <Binding RelativeSource="{RelativeSource FindAncestor, AncestorType={x:Type Views:MainWindow}}" Path="DataContext.Books" />
+                                    </MultiBinding>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                    <DataGridTextColumn.Header>
+                        <TextBlock Text="{Binding DataContext.PriceColumnHeader, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"/>
+                    </DataGridTextColumn.Header>
+                </DataGridTextColumn>
+                <DataGridComboBoxColumn ElementStyle="{StaticResource BindingComboBoxStyle}" 
+                                        EditingElementStyle="{StaticResource BindingComboBoxStyle}"
+                                        SelectedItemBinding="{Binding Path=SelectedBinding, NotifyOnSourceUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                    <DataGridComboBoxColumn.Header>
+                        <TextBlock Text="{Binding DataContext.BindingColumnHeader, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"/>
+                    </DataGridComboBoxColumn.Header>
+                </DataGridComboBoxColumn>
+                <DataGridCheckBoxColumn Binding="{Binding Path=InStock, UpdateSourceTrigger=PropertyChanged}">
+                    <DataGridCheckBoxColumn.Header>
+                        <TextBlock Text="{Binding DataContext.InStockColumnHeader, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"/>
+                    </DataGridCheckBoxColumn.Header>
+                </DataGridCheckBoxColumn>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.Header>
+                        <TextBlock Text="{Binding DataContext.DescriptionColumnHeader, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"/>
+                    </DataGridTemplateColumn.Header>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Command="{Binding DataContext.ShowDescriptionCommand, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" 
+                                    CommandParameter="{Binding Path=BookId}" FontSize="14">Show</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </DockPanel>
+</Window>

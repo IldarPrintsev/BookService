@@ -1,0 +1,58 @@
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\bin\Debug\BookService.exe.config
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\bin\Debug\BookService.exe
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\bin\Debug\BookService.pdb
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\obj\Debug\BookService.csprojAssemblyReference.cache
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\obj\Debug\Views\MainWindow.g.cs
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\obj\Debug\App.g.cs
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\obj\Debug\BookService_MarkupCompile.cache
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\obj\Debug\BookService_MarkupCompile.lref
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\obj\Debug\Views\MainWindow.baml
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\obj\Debug\BookService.g.resources
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\obj\Debug\BookService.Properties.Resources.resources
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\obj\Debug\BookService.csproj.GenerateResource.cache
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\obj\Debug\BookService.csproj.CoreCompileInputs.cache
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\obj\Debug\BookService.exe
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\obj\Debug\BookService.pdb
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\bin\Debug\BookService.exe.config
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\bin\Debug\BookService.exe
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\bin\Debug\BookService.pdb
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\obj\Debug\App.g.cs
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\obj\Debug\BookService_MarkupCompile.cache
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\obj\Debug\BookService_MarkupCompile.lref
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\obj\Debug\Views\MainWindow.baml
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\obj\Debug\BookService.g.resources
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\obj\Debug\BookService.Properties.Resources.resources
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\obj\Debug\BookService.csproj.GenerateResource.cache
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\obj\Debug\BookService.csproj.CoreCompileInputs.cache
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\obj\Debug\BookService.exe
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\obj\Debug\BookService.pdb
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\bin\Debug\Unity.Abstractions.dll
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\bin\Debug\Unity.Container.dll
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\bin\Debug\Unity.Abstractions.pdb
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\bin\Debug\Unity.Container.pdb
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\obj\Debug\BookService.csproj.CopyComplete
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\bin\Debug\CsvHelper.dll
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\bin\Debug\CsvHelper.xml
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Ildar\Documents\PROJECTS\TestTask\BookService\BookService\obj\Debug\BookService.csprojAssemblyReference.cache
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\bin\Debug\CsvHelper.dll
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\bin\Debug\Unity.Abstractions.dll
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\bin\Debug\Unity.Container.dll
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\bin\Debug\CsvHelper.xml
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\bin\Debug\Unity.Abstractions.pdb
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\bin\Debug\Unity.Container.pdb
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ildar\Documents\Ildar Printsev Projects\BookService\BookService\obj\Debug\BookService.csproj.CopyComplete
